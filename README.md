@@ -23,6 +23,7 @@ We have Yes Bank monthly stock price dataset. It has following features (Columns
 Conclusion
 
 1.At first we do the data wrangling then data cleaning and data transformation after that we do the Modeling part.
+
 2. The trend of the price of Yes Bank's stock increased until 2018 and then Close,Open,High,Low price decreased.
 3. Based on the open vs. close price graph, we concluded that Yes Bank's stock fell significantly after 2018.
 4. Visualization has allowed us to notice that the closing price of the stock has suddenly fallen starting in 2018. It seems reasonable that the Yes Bank stock price was significantly impacted by the Rana Kapoor case fraud.
