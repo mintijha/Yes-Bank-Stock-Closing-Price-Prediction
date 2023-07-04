@@ -25,13 +25,21 @@ Conclusion
 1.At first we do the data wrangling then data cleaning and data transformation after that we do the Modeling part.
 
 2. The trend of the price of Yes Bank's stock increased until 2018 and then Close,Open,High,Low price decreased.
+
 3. Based on the open vs. close price graph, we concluded that Yes Bank's stock fell significantly after 2018.
+
 4. Visualization has allowed us to notice that the closing price of the stock has suddenly fallen starting in 2018. It seems reasonable that the Yes Bank stock price was significantly impacted by the Rana Kapoor case fraud.
+
 5. High, Low, Open are directly correlate with the Closing price of stocks.
+
 6. The target variable is highly dependent on input variables.
+
 7. Linear Regression has given the best results with lowest MAE, MSE, RMSE and MAPE scores.
+
 8. Ridge regression shrunk the parameters to reduce complexity and multicollinearity, but ended up affecting the evaluation metrics.
+
 9. Lasso regression did feature selection and ended up giving up worse results than ridge which again reflects the fact that each feature is important (as previously discussed).
+
 10. The accuracy for each model is more than 90%.
 
 
