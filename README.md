@@ -1,16 +1,20 @@
 Yes Bank Stock Price Prediction
 
 Project Summary
+
 This project aims to predict the monthly closing stock price of Yes Bank using historical stock price data. The dataset contains information about Yes Bank's stock prices from its inception, with a total of 185 rows and 5 columns: Date, Open, Close, High, and Low.
 
 The dataset is analyzed through various data wrangling techniques, feature engineering, and exploratory data analysis (EDA). Multiple regression models are applied to determine the best model for predicting the closing price of the stock.
 
 Business Objective
+
 Yes Bank is a well-known private bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. This project investigates the impact of this event on the stock prices and aims to predict the stock’s closing price of the month. Accurate predictions will help stakeholders make informed decisions about their investments.
 
 General Guidelines
 Well-structured, formatted, and commented code.
+
 Exception Handling, Production Grade Code & Deployment Ready Code.
+
 At least 15 logical and meaningful charts with insights.
 
 Table of Contents
