@@ -1,6 +1,6 @@
 # Yes Bank Stock Price Prediction
 
-# ** Project Summary **
+## Project Summary 
 
 This project aims to predict the monthly closing stock price of Yes Bank using historical stock price data. The dataset contains information about Yes Bank's stock prices from its inception, with a total of 185 rows and 5 columns: Date, Open, Close, High, and Low.
 
