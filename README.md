@@ -1,45 +1,85 @@
-**Problem Statement**
+Yes Bank Stock Price Prediction
+Project Summary
+This project aims to predict the monthly closing stock price of Yes Bank using historical stock price data. The dataset contains information about Yes Bank's stock prices from its inception, with a total of 185 rows and 5 columns: Date, Open, Close, High, and Low.
 
-Yes Bank is a well-known bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. Owing to this fact, it was interesting to see how that impacted the stock prices of the company and whether Time series models or any other predictive models can do justice to such situations. This dataset has monthly stock prices of the bank since its inception and includes closing, starting, highest, and lowest stock prices of every month. The main objective is to predict the stock’s closing price of the month.
+The dataset is analyzed through various data wrangling techniques, feature engineering, and exploratory data analysis (EDA). Multiple regression models are applied to determine the best model for predicting the closing price of the stock.
 
-**Business objective:**
+Business Objective
+Yes Bank is a well-known private bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. This project investigates the impact of this event on the stock prices and aims to predict the stock’s closing price of the month. Accurate predictions will help stakeholders make informed decisions about their investments.
 
-Yes bank is private bank and it has many stake holders , so its matter that the stocks they own and price of their stocks . It’s very necessary to them to know the stock they own and price of the stock. So they could make decisions about the selling or keeping then stock and know how much the business is get affected by the inflation of the stock price.
+General Guidelines
+Well-structured, formatted, and commented code.
+Exception Handling, Production Grade Code & Deployment Ready Code.
+At least 15 logical and meaningful charts with insights.
 
-**Inforamtion About the data:**
+Table of Contents
+Installation
+Use the of Project
+Data Structure
+Data Wrangling
+Exploratory Data Analysis
+Modeling Process
+Results
+Contributing
 
-We have Yes Bank monthly stock price dataset. It has following features (Columns):
+Installation
 
-1)Open: Opening price of the stock of particular month.
+python -m pip install pip==17.0
 
-2)High: It is the highest price at which a stock traded during a given month period.
+To Install numpy :- pip install numpy
 
-3)Low: It is the lowest price at which stock traded during a given month period.
+To install pandas:- pip install pandas
 
-4)Close: Closing price stock at the end of a Trading month.
+Use of the Project
 
-5)Date:In which month and Year is given with respect the stock.
+![image](https://github.com/mintijha/Yes-Bank-Stock-Closing-Price-Prediction/assets/123978172/a66c93c5-f5c0-4fd9-91e3-2765515cda64)
 
-**Conclusion**
+From this insight we also grab full range of close price among different years which helps us to analize market information.
 
-1.At first we do the data wrangling then data cleaning and data transformation after that we do the Modeling part.
+![image](https://github.com/mintijha/Yes-Bank-Stock-Closing-Price-Prediction/assets/123978172/1044ac23-a872-44b2-9e70-2a8ddd88b86d)
 
-2. The trend of the price of Yes Bank's stock increased until 2018 and then Close,Open,High,Low price decreased.
+gained insights can help create a positive business impact by identifying trends in the data. For example, the high average closing price in January suggests that the business did well that month. The low average closing price in February suggests that the business may have experienced some challenges during that month. However, the overall trend is positive, which suggests that the business is on track to achieve its goals. There are no insights that lead to negative growth.
 
-3. Based on the open vs. close price graph, we concluded that Yes Bank's stock fell significantly after 2018.
+![image](https://github.com/mintijha/Yes-Bank-Stock-Closing-Price-Prediction/assets/123978172/cd38da12-628f-45c2-8e29-b6264816a8ec)
 
-4. Visualization has allowed us to notice that the closing price of the stock has suddenly fallen starting in 2018. It seems reasonable that the Yes Bank stock price was significantly impacted by the Rana Kapoor case fraud.
+Yes, it will make a postive impact because we can see the simlar trend of price on this stock so it will helpful to make decision in near future.
 
-5. High, Low, Open are directly correlate with the Closing price of stocks.
 
-6. The target variable is highly dependent on input variables.
 
-7. Linear Regression has given the best results with lowest MAE, MSE, RMSE and MAPE scores.
 
-8. Ridge regression shrunk the parameters to reduce complexity and multicollinearity, but ended up affecting the evaluation metrics.
+Dataset Information
+The dataset contains the following features:
 
-9. Lasso regression did feature selection and ended up giving up worse results than ridge which again reflects the fact that each feature is important (as previously discussed).
+Date: Month and year of the stock data.
+Open: Opening price of the stock for the month.
+High: Highest price at which the stock traded during the month.
+Low: Lowest price at which the stock traded during the month.
+Close: Closing price of the stock at the end of the month.
 
-10. The accuracy for each model is more than 90%.
+
+Data Wrangling
+Changing date column datatype to datetime format.
+Creating separate columns for month and year from the date column for better visualization.
+
+Modeling Process
+Train-Test Split: Dataset split into 80% training and 20% testing.
+
+Models Applied:
+
+Linear Regression
+Ridge Regression
+Lasso Regression
+Model Evaluation:
+
+Linear Regression provided the best performance based on MAE, MSE, RMSE, and MAPE scores.
+
+Results
+Linear Regression: Best performance with lowest errors.
+Ridge Regression: Reduced multicollinearity but negatively impacted evaluation metrics.
+Lasso Regression: Performed feature selection but had higher errors than Ridge.
+
+Contributing
+
+Amit Yadav :- https://github.com/Amit6124
 
 
