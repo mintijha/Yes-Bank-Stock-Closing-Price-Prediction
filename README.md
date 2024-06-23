@@ -1,33 +1,44 @@
 # Yes Bank Stock Price Prediction
 
+![image](https://github.com/mintijha/Yes-Bank-Stock-Closing-Price-Prediction/assets/123978172/9cb63a45-46e1-447f-9a47-801d6573f329)
+
+
 ## Project Summary 
 
 This project aims to predict the monthly closing stock price of Yes Bank using historical stock price data. The dataset contains information about Yes Bank's stock prices from its inception, with a total of 185 rows and 5 columns: Date, Open, Close, High, and Low.
 
 The dataset is analyzed through various data wrangling techniques, feature engineering, and exploratory data analysis (EDA). Multiple regression models are applied to determine the best model for predicting the closing price of the stock.
 
-Business Objective
+## Business Objective
 
 Yes Bank is a well-known private bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. This project investigates the impact of this event on the stock prices and aims to predict the stock’s closing price of the month. Accurate predictions will help stakeholders make informed decisions about their investments.
 
-General Guidelines
+## General Guidelines
+
 Well-structured, formatted, and commented code.
 
 Exception Handling, Production Grade Code & Deployment Ready Code.
 
 At least 15 logical and meaningful charts with insights.
 
-Table of Contents
+## Table of Contents
 Installation
+
 Use the of Project
+
 Data Structure
+
 Data Wrangling
+
 Exploratory Data Analysis
+
 Modeling Process
+
 Results
+
 Contributing
 
-Installation
+## Installation
 
 python -m pip install pip==17.0
 
@@ -35,7 +46,7 @@ To Install numpy :- pip install numpy
 
 To install pandas:- pip install pandas
 
-Use of the Project
+## Use of the Project
 
 ![image](https://github.com/mintijha/Yes-Bank-Stock-Closing-Price-Prediction/assets/123978172/a66c93c5-f5c0-4fd9-91e3-2765515cda64)
 
@@ -52,38 +63,52 @@ Yes, it will make a postive impact because we can see the simlar trend of price 
 
 
 
-Dataset Information
+## Dataset Information
+
 The dataset contains the following features:
 
 Date: Month and year of the stock data.
+
 Open: Opening price of the stock for the month.
+
 High: Highest price at which the stock traded during the month.
+
 Low: Lowest price at which the stock traded during the month.
+
 Close: Closing price of the stock at the end of the month.
 
 
-Data Wrangling
+## Data Wrangling
+
 Changing date column datatype to datetime format.
+
 Creating separate columns for month and year from the date column for better visualization.
 
-Modeling Process
+## Modeling Process
+
 Train-Test Split: Dataset split into 80% training and 20% testing.
 
-Models Applied:
+## Models Applied:
 
-Linear Regression
+Linear Regression 
+
 Ridge Regression
+
 Lasso Regression
+
 Model Evaluation:
 
 Linear Regression provided the best performance based on MAE, MSE, RMSE, and MAPE scores.
 
-Results
+## Results
+
 Linear Regression: Best performance with lowest errors.
+
 Ridge Regression: Reduced multicollinearity but negatively impacted evaluation metrics.
+
 Lasso Regression: Performed feature selection but had higher errors than Ridge.
 
-Contributing
+## Contributing
 
 Amit Yadav :- https://github.com/Amit6124
 
